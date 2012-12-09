@@ -27,6 +27,9 @@ $(call inherit-product, vendor/liquid/config/common_cdma.mk)
 # phone
 $(call inherit-product, vendor/liquid/config/common_phone.mk)
 
+#boot
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.dexopt-data-only=1
 
 # products
 PRODUCT_DEVICE := toro
