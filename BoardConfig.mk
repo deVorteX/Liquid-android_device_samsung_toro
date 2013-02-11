@@ -29,7 +29,6 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 30691799040
 # Compiler Optimization
 ARCH_ARM_HIGH_OPTIMIZATION := true
 
-
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/toro
 
 # on toro boards we need to apply a special adaptive filter

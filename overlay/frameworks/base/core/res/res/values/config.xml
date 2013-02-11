@@ -28,7 +28,7 @@
          attributes.  This is used by the connectivity manager to decide which networks can coexist
          based on the hardware -->
     <!-- An Array of "[Connection name],[ConnectivityManager connection type],
-         [associated radio-type],[priority],[restoral-timer(ms)],[dependencyMet]  -->
+         [associated radio-type],[priority],[restoral-timer(ms)],[dependencyMet] -->
     <!-- the 5th element "resore-time" indicates the number of milliseconds to delay
          before automatically restore the default connection.  Set -1 if the connection
          does not require auto-restore. -->
@@ -46,12 +46,12 @@
         <item>"mobile_ims,11,0,2,-1,true"</item>
         <item>"mobile_cbs,12,0,2,60000,true"</item>
     </string-array>
-    
+
     <!-- Provide Google Location Services -->
     <string-array name="config_locationProviderPackageNames" translatable="false">
-        <!-- The standard AOSP fused location provider --
+        <!-- The standard AOSP fused location provider
         <item>com.android.location.fused</item>
-        <!-- The Google Network Location Services location provider -->
+        < The Google Network Location Services location provider -->
         <item>com.google.android.location</item>
     </string-array>
 
@@ -61,7 +61,7 @@
          to this list.  If this is empty, no parts of the host USB bus will be excluded.
     -->
     <string-array name="config_usbHostBlacklist">
-        <!--  /dev/bus/usb/001 is used for the LTE modem -->
+        <!-- /dev/bus/usb/001 is used for the LTE modem -->
         <item>/dev/bus/usb/001</item>
     </string-array>
 
