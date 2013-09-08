@@ -41,5 +41,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=mysid \
     TARGET_BUILD_TYPE=user \
     BUILD_VERSION_TAGS=release-keys \
-    PRIVATE_BUILD_DESC="mysid-user 4.2.2 JDQ39 573038 release-keys" \
-    BUILD_FINGERPRINT="google/mysid/toro:4.2.2/JDQ39/573038:user/release-keys"
+    PRIVATE_BUILD_DESC="mysid-user 4.mysid-user 4.3 JWR66V 737497 release-keys" \
+    BUILD_FINGERPRINT="google/mysid/toro:4.3/JWR66V/737497:user/release-keys"
