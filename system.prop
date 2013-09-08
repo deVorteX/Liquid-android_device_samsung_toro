@@ -4,6 +4,8 @@ windowsmgr.max_events_per_sec=275
 #
 ## cannot take spaces
 rild.libargs=-d /dev/ttys0
+
+# Fields For Custom RIL
 rild.libpath=/vendor/lib/libsec-ril_lte.so
 telephony.lteOnCdmaDevice=1
 ro.config.svlte1x=true
@@ -20,3 +22,6 @@ ro.ril.ecclist=112,911,#911,*911
 
 # Default to LTE/CDMA Network Mode
 ro.telephony.default_network=7
+
+# GPU producer to CPU consumer not supported
+ro.bq.gpu_to_cpu_unsupported=1

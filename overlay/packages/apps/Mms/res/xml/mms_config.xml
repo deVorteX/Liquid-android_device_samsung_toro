@@ -91,3 +91,4 @@
          message will be converted to an mms. -->
     <int name="smsToMmsTextThreshold">7</int>
 </mms_config>
+
