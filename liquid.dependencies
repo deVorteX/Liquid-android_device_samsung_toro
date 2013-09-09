@@ -2,15 +2,11 @@
  {
    "repository": "android_kernel_samsung_tuna",
    "target_path": "kernel/samsung/tuna",
-   "branch": "cm-10.1"
+   "branch": "cm-10.2"
  },
  {
    "repository": "android_device_samsung_tuna",
    "target_path": "device/samsung/tuna",
-   "branch": "jb2"
- },
- {
-   "repository": "android_device_sample",
-   "target_path": "device/sample"
+   "branch": "jb3"
  }
 ]

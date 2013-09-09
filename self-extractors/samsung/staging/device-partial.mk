@@ -1,5 +1,4 @@
-#
-# Copyright 2013 The Android Open-Source Project
+# Copyright (C) 2010 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,7 +11,25 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
-$(call inherit-product, device/samsung/toro/full_toro.mk)
 
-PRODUCT_NAME := aosp_toro
+# Samsung blob(s) necessary for Toro hardware
+PRODUCT_PACKAGES := \
+    BIP \
+    IMSFramework \
+    RTN \
+    SDM \
+    SPG \
+    SyncMLSvc \
+    fRom \
+    libsecril-client \
+    libsyncml_core \
+    libsyncml_port \
+    lib_gsd4t \
+    libims \
+    libims_jni \
+    libsec-ril_lte
+
+# This is Open Source but doesn't get built without
+# the other packages above
+PRODUCT_PACKAGES += \
+    CellBroadcastReceiver

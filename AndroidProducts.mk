@@ -16,5 +16,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/aosp_toro.mk \
-    $(LOCAL_DIR)/liquid.mk
+    $(LOCAL_DIR)/aosp_toro.mk \
+    $(LOCAL_DIR)/full_toro.mk
