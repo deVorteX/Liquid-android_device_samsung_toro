@@ -5,7 +5,7 @@ PRODUCT_RELEASE_NAME := GN-CDMA
 OVERLAY_TARGET := pa_xhdpi
 
 # device
-$(call inherit-product-if-exists, device/samsung/toro/full_toro.mk)
+$(call inherit-product-if-exists, device/samsung/toro/aosp_toro.mk)
 
 # cdma
 $(call inherit-product, vendor/liquid/config/common_cdma.mk)
